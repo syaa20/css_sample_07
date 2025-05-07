@@ -1,0 +1,56 @@
+@charset "UTF-8"; 
+
+body {
+  background-color: rgb(171, 181, 232);
+}
+ 
+#wrap {
+  width: 960px;
+  margin: auto;
+  background-color: white;
+}
+ 
+header  {
+  padding: 40px;
+  height: 80px;
+}
+ 
+nav {
+  padding: 8px 40px;
+  background-color: rgb(33, 22, 96);
+  color: white;
+  transition-property: background-color;
+  transition-duration: .5s;
+  ;
+}
+nav:hover {
+  background-color: rgb(65, 67, 89);
+}
+ 
+main{
+  padding: 40px;
+  height : 400px;
+}
+ 
+footer   {
+  padding: 40px;
+  height: 40px;
+  background-color : rgb(85, 97, 127);
+  color: white;
+}
+
+.expansion {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+}
+.expansion img {
+  width: 100%;
+  transition: all .5s;
+}
+
+.expansion img:hover {
+  /*transform: scale(1.2);*/
+  scale:1.2;
+  opacity: 0.8;
+}
